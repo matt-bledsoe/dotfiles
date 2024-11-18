@@ -1,6 +1,9 @@
 set nocompatible          " get rid of Vi compatibility mode.
 filetype plugin indent on " filetype detection plugin indent
 syntax enable		  " enable syntax highlighting
+call plug#begin()
+Plug 'ledger/vim-ledger'
+call plug#end()
 set number		  " show line numbers
 set relativenumber	  " show relative line numbers
 filetype indent on	  " activates indenting for files
